@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB30B815F4341D5EEA6BD4D5 /* QuickTasksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB562EB44C9179390F3BA34 /* QuickTasksApp.swift */; };
+		9133DD65CEFA38CB8638F290 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E525A815BC3FC8FAED8BEAC8 /* ContentView.swift */; };
+		6EE01309658321BBA0E62FEA /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A534A4723957385B690B639 /* TaskItem.swift */; };
+		9F4F0B543DF7C3903D0CE57A /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA47C1BADF5C54377B2FC32 /* TaskDetailView.swift */; };
+		CFF489A0A356C1CDD5D11215 /* ExerciseViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C38819C7FF1A647BF26207C /* ExerciseViews.swift */; };
+		119CFEB92FF0138AC68561B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F6F1F04A941FB1FB29F575 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		257F48BA331F25CA39F97E18 /* QuickTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuickTasks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB562EB44C9179390F3BA34 /* QuickTasksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTasksApp.swift; sourceTree = "<group>"; };
+		E525A815BC3FC8FAED8BEAC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A534A4723957385B690B639 /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+		4EA47C1BADF5C54377B2FC32 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		1C38819C7FF1A647BF26207C /* ExerciseViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViews.swift; sourceTree = "<group>"; };
+		42F6F1F04A941FB1FB29F575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		020E40D7CD6FBD4DDE7C0627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		511309DAE240B1065450CDFE = {
+			isa = PBXGroup;
+			children = (
+				B66057DD36E0D6B54FAE104A /* QuickTasks */,
+				E1F22F0DB2AC496C0AB2246B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1F22F0DB2AC496C0AB2246B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				257F48BA331F25CA39F97E18 /* QuickTasks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B66057DD36E0D6B54FAE104A /* QuickTasks */ = {
+			isa = PBXGroup;
+			children = (
+				BEB562EB44C9179390F3BA34 /* QuickTasksApp.swift */,
+				E525A815BC3FC8FAED8BEAC8 /* ContentView.swift */,
+				4A534A4723957385B690B639 /* TaskItem.swift */,
+				4EA47C1BADF5C54377B2FC32 /* TaskDetailView.swift */,
+				BBB1FCDCD312937A46D78426 /* Exercises */,
+				42F6F1F04A941FB1FB29F575 /* Assets.xcassets */,
+			);
+			path = QuickTasks;
+			sourceTree = "<group>";
+		};
+		BBB1FCDCD312937A46D78426 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				1C38819C7FF1A647BF26207C /* ExerciseViews.swift */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0E96BB5F0B7E4917A1E6D16 /* QuickTasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3A6A050D0D51401B9B910E /* Build configuration list for PBXNativeTarget "QuickTasks" */;
+			buildPhases = (
+				72C4BAF96E2A3C95A197894B /* Sources */,
+				020E40D7CD6FBD4DDE7C0627 /* Frameworks */,
+				8A77F41D573D7E7CEF7BD393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QuickTasks";
+			productName = "QuickTasks";
+			productReference = 257F48BA331F25CA39F97E18 /* QuickTasks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFC0689B01F437A3CD114654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D0E96BB5F0B7E4917A1E6D16 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 3397155024066D42EBC09C1D /* Build configuration list for PBXProject "QuickTasks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 511309DAE240B1065450CDFE;
+			productRefGroup = E1F22F0DB2AC496C0AB2246B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E96BB5F0B7E4917A1E6D16 /* QuickTasks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A77F41D573D7E7CEF7BD393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119CFEB92FF0138AC68561B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72C4BAF96E2A3C95A197894B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB30B815F4341D5EEA6BD4D5 /* QuickTasksApp.swift in Sources */,
+				9133DD65CEFA38CB8638F290 /* ContentView.swift in Sources */,
+				6EE01309658321BBA0E62FEA /* TaskItem.swift in Sources */,
+				9F4F0B543DF7C3903D0CE57A /* TaskDetailView.swift in Sources */,
+				CFF489A0A356C1CDD5D11215 /* ExerciseViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6A3C7A1863EAA57B2B243D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		D9F309C8BF60579B18E1F174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		28573099AAF7F0BCBCA235AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quick Tasks";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lk.ac.sliit.QuickTasks.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		9880B6924771EB59EE7C1FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quick Tasks";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lk.ac.sliit.QuickTasks.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3397155024066D42EBC09C1D /* Build configuration list for PBXProject "QuickTasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A3C7A1863EAA57B2B243D1D /* Debug */,
+				D9F309C8BF60579B18E1F174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D3A6A050D0D51401B9B910E /* Build configuration list for PBXNativeTarget "QuickTasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28573099AAF7F0BCBCA235AE /* Debug */,
+				9880B6924771EB59EE7C1FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFC0689B01F437A3CD114654 /* Project object */;
+}
